@@ -1,21 +1,21 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "We Build Modern Web Solutions",
+    "paragraph": "We are a passionate web development agency dedicated to crafting fast, secure, and scalable digital experiences. Whether you're a startup or an established business, we help bring your ideas to life with innovative and user-friendly solutions."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "At our core, we combine creativity, technical expertise, and client-focused strategies to deliver websites and software that not only look great but also perform seamlessly. From custom web applications to responsive websites, our team ensures your digital presence stands out in today's competitive landscape.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Custom, scalable solutions tailored to your business",
+      "Mobile-first, responsive design for all devices",
+      "SEO-friendly development practices",
+      "Clean code and modern technologies"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Dedicated support and post-launch services",
+      "Agile development with transparent communication",
+      "User-centric UI/UX design",
+      "Fast turnaround time without compromising quality"
     ]
   },
   "Gallery": [
@@ -68,32 +68,32 @@
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
+      "name": "Custom Web Development",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
+      "name": "E-Commerce Solutions",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
+      "name": "Responsive Design",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
+      "name": "SEO & Performance Optimization",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
+      "name": "Web Hosting & Deployment",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
+      "name": "UI/UX Design",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
   ],
@@ -131,24 +131,24 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/ryan.jpeg",
+      "name": "Ryan Tan",
+      "job": "Head of Marketing and Sales"
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/ryan.jpeg",
+      "name": "Dustin Cornwell Nonchalant",
+      "job": "Head of forehead"
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "img/ryan.jpeg",
+      "name": "Billy Yap",
+      "job": "Head of Big forehead"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/ryan.jpeg",
+      "name": "Dustin Cornwell Nonchalant",
+      "job": "Head of forehead"
     }
   ],
   "Contact": {

@@ -12,13 +12,13 @@ export const Gallery = (props) => {
             dapibus leonec.
           </p>
         </div>
-        <div className="row">
-          <div className="portfolio-items">
+        <div className="row justify-content-center">
+          <div className="portfolio-items d-flex flex-wrap justify-content-center">
             {props.data
               ? props.data.map((d, i) => (
                   <div
                     key={`${d.title}-${i}`}
-                    className="col-sm-6 col-md-4 col-lg-4"
+                    className="col-sm-8 col-md-4 col-lg-4 d-flex justify-content-center"
                   >
                     <Image
                       title={d.title}
