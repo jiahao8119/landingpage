@@ -159,26 +159,27 @@
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-  ]
+ "Features": [
+  {
+    "icon": "fa fa-comments-o",
+    "title": "Client-Centric Approach",
+    "text": "We prioritize clear communication and collaboration to ensure your ideas are understood and brought to life exactly as envisioned."
+  },
+  {
+    "icon": "fa fa-bullhorn",
+    "title": "Scalable Solutions",
+    "text": "From startups to enterprises, our web and software solutions are built to scale with your growing business needs."
+  },
+  {
+    "icon": "fa fa-group",
+    "title": "Experienced Team",
+    "text": "Our team of developers, designers, and project managers brings years of industry experience to every project we take on."
+  },
+  {
+    "icon": "fa fa-magic",
+    "title": "Custom Development",
+    "text": "No templates here. We craft tailored digital experiences with modern tech stacks that fit your exact business goals."
+  }
+]
+
 }

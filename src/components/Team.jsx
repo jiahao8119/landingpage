@@ -5,11 +5,13 @@ export const Team = (props) => {
     <div id="team" className="text-center">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
-          <h2>Meet the Team</h2>
+          <h2>Meet Our Team</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
+  We are a passionate team of software engineers, web developers, and digital
+  strategists dedicated to building innovative, high-performing solutions. From
+  custom web applications to powerful backend systems, we collaborate to bring
+  your digital vision to life.
+</p>
         </div>
         <div id="row">
           {props.data
