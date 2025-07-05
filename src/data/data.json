@@ -18,38 +18,39 @@
       "Commitment to innovation and continuous improvement"
     ]
   },
-  "Services": [
-    {
-      "icon": "fa fa-cogs",
-      "name": "Custom Mould Making",
-      "text": "We design and manufacture high-precision moulds tailored to your product requirements, ensuring quality, consistency, and performance."
-    },
-    {
-      "icon": "fa fa-industry",
-      "name": "CNC Machining",
-      "text": "Advanced CNC milling, turning, and EDM services that deliver precision components with tight tolerances."
-    },
-    {
-      "icon": "fa fa-wrench",
-      "name": "Tooling & Assembly",
-      "text": "From jigs to fixtures, we build tooling solutions to support manufacturing efficiency and accuracy."
-    },
-    {
-      "icon": "fa fa-shield",
-      "name": "Quality Inspection",
-      "text": "We follow strict quality control processes including dimensional verification and material integrity testing."
-    },
-    {
-      "icon": "fa fa-rocket",
-      "name": "Prototype Development",
-      "text": "We support R&D teams with rapid prototyping and short-run production to bring new ideas to life."
-    },
-    {
-      "icon": "fa fa-refresh",
-      "name": "Mould Maintenance & Repair",
-      "text": "Ensure longevity and optimal performance of your existing moulds with our refurbishing and repair services."
-    }
-  ],
+   "Services": [
+  {
+    "icon": "fa fa-cubes",
+    "name": "Custom Mould Design",
+    "text": "We create tailor-made moulds with high precision, engineered to meet your product specifications and industry standards."
+  },
+  {
+    "icon": "fa fa-cogs",
+    "name": "CNC Machining",
+    "text": "Our CNC services include high-speed milling, turning, and EDM processing to produce complex and accurate components."
+  },
+  {
+    "icon": "fa fa-wrench",
+    "name": "Tooling Fabrication",
+    "text": "We manufacture jigs, fixtures, and tools to support smooth production processes and ensure repeatable accuracy."
+  },
+  {
+    "icon": "fa fa-lightbulb-o",
+    "name": "Prototype Development",
+    "text": "We assist in R&D with functional prototypes for testing, helping you bring ideas to life quickly and reliably."
+  },
+  {
+    "icon": "fa fa-refresh",
+    "name": "Mould Repair & Maintenance",
+    "text": "Extend the life of your existing moulds with our comprehensive maintenance, refurbishing, and modification services."
+  },
+  {
+    "icon": "fa fa-check-circle",
+    "name": "Quality Inspection",
+    "text": "We follow strict inspection protocols to ensure dimensional accuracy, durability, and performance of all parts delivered."
+  }
+],
+
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",

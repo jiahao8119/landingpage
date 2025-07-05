@@ -43,7 +43,12 @@ export const Contact = (props) => {
     e.preventDefault();
 
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm(
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
+        e.target,
+        "YOUR_PUBLIC_KEY"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -162,11 +167,16 @@ export const Contact = (props) => {
 
         {/* Footer */}
         <div className="row" style={{ marginTop: "50px" }}>
-          <div className="col-md-12 text-center">
+          <div className="col-md-12 text-center text-white">
             <p>
               &copy; UnixmouldEngineering 2025. Developed by{" "}
-              <a href="https://blinkcode.com" target="_blank" rel="noopener noreferrer">
-                BlinkCode.com
+              <a
+                href="https://blinkcodedev.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "white", textDecoration: "none" }}
+              >
+                BlinkCodeDev.com
               </a>
             </p>
           </div>
