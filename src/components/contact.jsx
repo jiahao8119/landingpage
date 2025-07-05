@@ -1,12 +1,34 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
-import React from "react";
+import { React } from "react";
 
 const initialState = {
   name: "",
   email: "",
   message: "",
 };
+
+// Responsive modern textarea component
+const ResponsiveTextarea = ({ value, onChange }) => (
+  <textarea
+    name="message"
+    className="form-control"
+    rows="5"
+    placeholder="Your Message"
+    required
+    value={value}
+    onChange={onChange}
+    style={{
+      marginBottom: "20px",
+      padding: "14px 16px",
+      borderRadius: "20px",
+      resize: "vertical",
+      width: "100%",
+      border: "1px solid #ccc",
+    }}
+  ></textarea>
+);
+
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
 
@@ -14,15 +36,12 @@ export const Contact = (props) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
+
   const clearState = () => setState({ ...initialState });
-  
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+
     emailjs
       .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
       .then(
@@ -35,113 +54,104 @@ export const Contact = (props) => {
         }
       );
   };
+
   return (
-    <div>
-      <div id="contact">
-        <div className="container">
+    <div id="contact" style={{ padding: "60px 0", backgroundColor: "#f9f9f9" }}>
+      <div className="container">
+        <div className="row">
+          {/* Left: Contact Form */}
           <div className="col-md-8">
-            <div className="row">
-              <div className="section-title">
-                <h2>Get In Touch</h2>
-                <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
-                </p>
-              </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
-                <div className="row">
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        className="form-control"
-                        placeholder="Name"
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="form-group">
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        className="form-control"
-                        placeholder="Email"
-                        required
-                        onChange={handleChange}
-                      />
-                      <p className="help-block text-danger"></p>
-                    </div>
-                  </div>
-                </div>
-                <div className="form-group">
-                  <textarea
-                    name="message"
-                    id="message"
-                    className="form-control"
-                    rows="4"
-                    placeholder="Message"
-                    required
-                    onChange={handleChange}
-                  ></textarea>
-                  <p className="help-block text-danger"></p>
-                </div>
-                <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
-                </button>
-              </form>
+            <div className="section-title">
+              <h2>Get In Touch</h2>
+              <p>Please fill out the form below. We'll get back to you soon.</p>
             </div>
+            <form name="sentMessage" onSubmit={handleSubmit}>
+              <div className="row">
+                <div className="col-md-6">
+                  <input
+                    type="text"
+                    name="name"
+                    className="form-control"
+                    placeholder="Your Name"
+                    required
+                    value={name}
+                    onChange={handleChange}
+                    style={{
+                      marginBottom: "15px",
+                      padding: "14px 16px",
+                      borderRadius: "15px",
+                      border: "1px solid #ccc",
+                    }}
+                  />
+                </div>
+                <div className="col-md-6">
+                  <input
+                    type="email"
+                    name="email"
+                    className="form-control"
+                    placeholder="Your Email"
+                    required
+                    value={email}
+                    onChange={handleChange}
+                    style={{
+                      marginBottom: "15px",
+                      padding: "14px 16px",
+                      borderRadius: "15px",
+                      border: "1px solid #ccc",
+                    }}
+                  />
+                </div>
+              </div>
+
+              <ResponsiveTextarea value={message} onChange={handleChange} />
+
+              <button
+                type="submit"
+                className="btn btn-custom btn-lg"
+                style={{
+                  backgroundColor: "#333",
+                  color: "#fff",
+                  padding: "12px 25px",
+                  border: "none",
+                  borderRadius: "20px",
+                }}
+              >
+                Send Message
+              </button>
+            </form>
           </div>
-          <div className="col-md-3 col-md-offset-1 contact-info">
-            <div className="contact-item">
+
+          {/* Right: Contact Info */}
+          <div className="col-md-4">
+            <div className="contact-info" style={{ marginTop: "30px" }}>
               <h3>Contact Info</h3>
               <p>
-                <span>
-                  <i className="fa fa-map-marker"></i> Address
-                </span>
+                <i className="fa fa-map-marker"></i>{" "}
                 {props.data ? props.data.address : "loading"}
               </p>
-            </div>
-            <div className="contact-item">
               <p>
-                <span>
-                  <i className="fa fa-phone"></i> Phone
-                </span>{" "}
+                <i className="fa fa-phone"></i>{" "}
                 {props.data ? props.data.phone : "loading"}
               </p>
-            </div>
-            <div className="contact-item">
               <p>
-                <span>
-                  <i className="fa fa-envelope-o"></i> Email
-                </span>{" "}
+                <i className="fa fa-envelope-o"></i>{" "}
                 {props.data ? props.data.email : "loading"}
               </p>
-            </div>
-          </div>
-          <div className="col-md-12">
-            <div className="row">
-              <div className="social">
-                <ul>
+              <div className="social" style={{ marginTop: "20px" }}>
+                <ul className="list-inline">
                   <li>
                     <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
+                      <i className="fa fa-facebook fa-2x"></i>
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
+                      <i className="fa fa-twitter fa-2x"></i>
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                      <i className="fa fa-youtube fa-2x"></i>
                     </a>
                   </li>
                 </ul>
@@ -149,12 +159,17 @@ export const Contact = (props) => {
             </div>
           </div>
         </div>
-      </div>
-      <div id="footer">
-        <div className="container text-center">
-          <p>
-            &copy; 2025 Jiahao Landing Page Template.
-          </p>
+
+        {/* Footer */}
+        <div className="row" style={{ marginTop: "50px" }}>
+          <div className="col-md-12 text-center">
+            <p>
+              &copy; UnixmouldEngineering 2025. Developed by{" "}
+              <a href="https://blinkcode.com" target="_blank" rel="noopener noreferrer">
+                BlinkCode.com
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </div>

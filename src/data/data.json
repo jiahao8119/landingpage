@@ -1,185 +1,122 @@
 {
   "Header": {
-    "title": "We Build Modern Web Solutions",
-    "paragraph": "We are a passionate web development agency dedicated to crafting fast, secure, and scalable digital experiences. Whether you're a startup or an established business, we help bring your ideas to life with innovative and user-friendly solutions."
+    "title": "Precision Mould Engineering & CNC Solutions",
+    "paragraph": "Unix Mould Engineering is a trusted mould maker specializing in high-precision CNC machining and engineering solutions. We help manufacturers and industries achieve efficiency through expertly crafted moulds and engineering excellence."
   },
   "About": {
-    "paragraph": "At our core, we combine creativity, technical expertise, and client-focused strategies to deliver websites and software that not only look great but also perform seamlessly. From custom web applications to responsive websites, our team ensures your digital presence stands out in today's competitive landscape.",
+    "paragraph": "At Unix Mould Engineering, we are dedicated to delivering top-tier moulds and precision-engineered components. With cutting-edge CNC technology, skilled craftsmanship, and customer-focused processes, we provide reliable solutions that meet your industrial production demands.",
     "Why": [
-      "Custom, scalable solutions tailored to your business",
-      "Mobile-first, responsive design for all devices",
-      "SEO-friendly development practices",
-      "Clean code and modern technologies"
+      "Custom moulds designed for your product needs",
+      "High-precision CNC machining services",
+      "Durable materials and strict quality control",
+      "Experience across various manufacturing industries"
     ],
     "Why2": [
-      "Dedicated support and post-launch services",
-      "Agile development with transparent communication",
-      "User-centric UI/UX design",
-      "Fast turnaround time without compromising quality"
+      "Timely delivery and consistent performance",
+      "End-to-end project support from concept to completion",
+      "Responsive customer service",
+      "Commitment to innovation and continuous improvement"
     ]
   },
-  "Gallery": [
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
-    }
-  ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Custom Web Development",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cogs",
+      "name": "Custom Mould Making",
+      "text": "We design and manufacture high-precision moulds tailored to your product requirements, ensuring quality, consistency, and performance."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "E-Commerce Solutions",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-industry",
+      "name": "CNC Machining",
+      "text": "Advanced CNC milling, turning, and EDM services that deliver precision components with tight tolerances."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Responsive Design",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-wrench",
+      "name": "Tooling & Assembly",
+      "text": "From jigs to fixtures, we build tooling solutions to support manufacturing efficiency and accuracy."
     },
     {
-      "icon": "fa fa-language",
-      "name": "SEO & Performance Optimization",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-shield",
+      "name": "Quality Inspection",
+      "text": "We follow strict quality control processes including dimensional verification and material integrity testing."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Web Hosting & Deployment",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-rocket",
+      "name": "Prototype Development",
+      "text": "We support R&D teams with rapid prototyping and short-run production to bring new ideas to life."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "UI/UX Design",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-refresh",
+      "name": "Mould Maintenance & Repair",
+      "text": "Ensure longevity and optimal performance of your existing moulds with our refurbishing and repair services."
     }
   ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Unix Mould Engineering exceeded our expectations. Their CNC quality and turnaround time were superb.\"",
+      "name": "Jason Liew, Manufacturing Director"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Reliable and highly skilled. Our custom moulds came out perfect. Great team to work with!\"",
+      "name": "Mei Ling, Product Engineer"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Reliable and highly skilled. Our custom moulds came out perfect. Great team to work with!\"",
+      "name": "Mei Ling, Product Engineer"
     }
   ],
   "Team": [
     {
       "img": "img/ryan.jpeg",
       "name": "Ryan Tan",
-      "job": "Head of Marketing and Sales"
-    },
-    {
-      "img": "img/ryan.jpeg",
-      "name": "Dustin Cornwell Nonchalant",
-      "job": "Head of forehead"
+      "job": "Lead CNC Engineer"
     },
     {
       "img": "img/ryan.jpeg",
       "name": "Billy Yap",
-      "job": "Head of Big forehead"
+      "job": "Project & Quality Manager"
     },
     {
       "img": "img/ryan.jpeg",
-      "name": "Dustin Cornwell Nonchalant",
-      "job": "Head of forehead"
+      "name": "James Wong",
+      "job": "Tool Design Specialist"
+    },
+    {
+      "img": "img/ryan.jpeg",
+      "name": "Alice Ng",
+      "job": "Customer Relations Executive"
     }
   ],
   "Contact": {
-    "address": "No.45 , Jalan Desa 2/4 , Bandar Country Homes ",
-    "phone": "+60 1133094116",
-    "email": "bchweb@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "No. 34, Jalan Tembaga SD 5/2H, 52200 Kuala Lumpur",
+    "phone": "+60 122551462",
+    "email": "unixmould@yahoo.com",
+    "facebook": "fb.com/unixmould",
+    "twitter": "twitter.com/unixmould",
+    "youtube": "youtube.com/unixmould"
   },
- "Features": [
-  {
-    "icon": "fa fa-comments-o",
-    "title": "Client-Centric Approach",
-    "text": "We prioritize clear communication and collaboration to ensure your ideas are understood and brought to life exactly as envisioned."
-  },
-  {
-    "icon": "fa fa-bullhorn",
-    "title": "Scalable Solutions",
-    "text": "From startups to enterprises, our web and software solutions are built to scale with your growing business needs."
-  },
-  {
-    "icon": "fa fa-group",
-    "title": "Experienced Team",
-    "text": "Our team of developers, designers, and project managers brings years of industry experience to every project we take on."
-  },
-  {
-    "icon": "fa fa-magic",
-    "title": "Custom Development",
-    "text": "No templates here. We craft tailored digital experiences with modern tech stacks that fit your exact business goals."
-  }
-]
-
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Precision Engineering",
+      "text": "We focus on producing high-accuracy components that meet tight industrial standards."
+    },
+    {
+      "icon": "fa fa-cube",
+      "title": "Custom Mould Design",
+      "text": "Our moulds are tailor-made to fit your unique products and production goals."
+    },
+    {
+      "icon": "fa fa-users",
+      "title": "Skilled Engineering Team",
+      "text": "Our experienced team combines deep knowledge with hands-on expertise."
+    },
+    {
+      "icon": "fa fa-clock-o",
+      "title": "On-Time Delivery",
+      "text": "We value deadlines and ensure prompt delivery of every project without sacrificing quality."
+    }
+  ]
 }

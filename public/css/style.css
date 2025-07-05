@@ -76,7 +76,7 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: #838b99;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -84,13 +84,13 @@ hr {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #333;
+  color: #ffffff;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: #ffffff;
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -208,7 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/cncmachine.png) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -221,7 +221,7 @@ a:focus,
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 82px;
+  font-size: 60px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -248,6 +248,13 @@ header .intro-text {
 #features {
   background: #f6f6f6;
 }
+.features-section {
+  min-height: 400px;
+  /* Optional padding */
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 #features i.fa {
   font-size: 38px;
   margin-bottom: 20px;
@@ -604,3 +611,5 @@ label {
     margin: 50px 0;
   }
 }
+
+
