@@ -20,7 +20,7 @@ export const Carousel = () => {
       <div className="w-full">
         <Swiper
           modules={[Autoplay]}
-          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          autoplay={{ delay: 2000, disableOnInteraction: false }}
           loop={true}
           spaceBetween={0}
           slidesPerView={1}

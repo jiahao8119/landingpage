@@ -10,6 +10,8 @@ import { MapSection } from "./components/Team";
 import { Carousel } from "./components/carousel";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
+import { BackToTopButton } from "./components/BackToTopButton";
+
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -34,6 +36,7 @@ const App = () => {
       <Testimonials data={landingPageData.Testimonials} />
       <MapSection /> 
       <Contact data={landingPageData.Contact} />
+      <BackToTopButton />
     </div>
   );
 };
