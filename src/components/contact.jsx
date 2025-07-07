@@ -44,10 +44,10 @@ export const Contact = (props) => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_ytvl59i",
+        "template_0e7ue9w",
         e.target,
-        "YOUR_PUBLIC_KEY"
+        "V_XCevpBrTy5oJn0q"
       )
       .then(
         (result) => {
