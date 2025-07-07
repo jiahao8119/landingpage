@@ -3,7 +3,7 @@ import React from "react";
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      <div className="container">
+      <div className="container-fluid">
         <div className="navbar-header">
           <button
             type="button"
@@ -11,22 +11,37 @@ export const Navigation = (props) => {
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
           >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
+            <span className="sr-only">Toggle navigation</span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
+          <a
+            className="navbar-brand page-scroll"
+            href="#page-top"
+            style={{ display: "flex", alignItems: "center" }}
+          >
+            <img
+              src="/img/logo1.jpg"
+              alt="UnixMould Logo"
+              style={{ height: "30px", marginRight: "10px" }}
+            />
             UnixMould Engineering
-          </a>{" "}
+          </a>
         </div>
 
         <div
           className="collapse navbar-collapse"
           id="bs-example-navbar-collapse-1"
         >
-          <ul className="nav navbar-nav navbar-right">
+          <ul
+            className="nav navbar-nav"
+            style={{
+              position: "absolute",
+              left: "50%",
+              transform: "translateX(-50%)",
+            }}
+          >
             <li>
               <a href="#features" className="page-scroll">
                 Features
