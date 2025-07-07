@@ -2,24 +2,23 @@ import React from "react";
 
 export const Header = (props) => {
   return (
-    <header id="header" className="modern-header">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-8 col-md-offset-2 text-center">
-            <div className="animate-fade-in-up">
-              <h1>
-                {props.data ? props.data.title : "Loading"}
-              </h1>
-              <p>{props.data ? props.data.paragraph : "Loading"}</p>
-              <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-                <a href="#features" className="modern-btn modern-btn-primary page-scroll">
-                  <i className="fa fa-rocket"></i>
+    <header id="header">
+      <div className="intro">
+        <div className="overlay">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-8 col-md-offset-2 intro-text">
+                <h1>
+                  {props.data ? props.data.title : "Loading"}
+                  <span></span>
+                </h1>
+                <p>{props.data ? props.data.paragraph : "Loading"}</p>
+                <a
+                  href="#features"
+                  className="btn btn-custom btn-lg page-scroll"
+                >
                   Learn More
-                </a>
-                <a href="#contact" className="modern-btn page-scroll">
-                  <i className="fa fa-phone"></i>
-                  Get Quote
-                </a>
+                </a>{" "}
               </div>
             </div>
           </div>
